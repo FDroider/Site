@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="{{url_for('static', filename='css/comments.css')}}">
+{% extends 'base.html' %}
+
+{% block title %}
+Створити коментар
+{% endblock %}
+
+{% block body %}
+<div class="container element">
+    <h1>Створення коментаря</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" class="form-control" placeholder="Напишіть назву вашого повідомлення">
+        <textarea name="text" id="text" class="form-control" placeholder="Напишіть ваше повідомлення"></textarea>
+        <input type="submit" class="btn btn-success" value="Відправити">
+        <a href="/state" class="btn btn-primary">Повернутися до статті</a>
+    </form>
+</div>
+{% endblock %}

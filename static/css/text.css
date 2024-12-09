@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+.title h1{
+    font-family: Roboto;
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.text{
+    color: #fff;
+}
+
+.text p{
+    font-size: 20px
+}
+
+.text table{
+    margin-top: 10px;
+}
+
+.text h2{
+    border-bottom: 2px solid #fff;
+}
+
+.advise{
+    display: inline-block;
+    background: rgba(102, 204, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.advise h4{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line{
+    height: 2px;
+    background: #CCFFFF;
+    border-bottom: 1px solid #CCFFFF;
+    margin-bottom: 3px;
+}
+
+.recommendation h4{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recommendation{
+    margin-bottom: 10px;
+    display: inline-block;
+    background: rgba(127, 255, 212, 0.8);
+    border-radius: 10px;
+}
+
+.comments{
+    display: inline-block;
+    background: rgba(112, 128, 144, 0.8);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comments h2{
+    padding-top: 10px;
+}
+
+.comments p{
+    margin-bottom: 5px;
+}
+
+.comments button{
+    margin-bottom: 10px;
+}
+
+.no-comment p{
+    padding-top: 10px;
+}
+
+.btn-t{
+    margin-bottom: 20px;
+}
+
+p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+p a:hover{
+    text-decoration: underline;
+    color: #0041C2;
+    transition: all 0.2s ease;
+}

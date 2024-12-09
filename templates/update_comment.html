@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="{{url_for('static', filename='css/comments.css')}}">
+{% extends 'base.html' %}
+
+{% block title %}
+Редагування коментарія
+{% endblock %}
+
+{% block body %}
+<div class="container change">
+    <h1>Редагування коментаря</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" class="form-control" value="{{ article.title }}" placeholder="Напишіть назву вашого повідомлення">
+        <textarea name="text" id="text" class="form-control" placeholder="Напишіть ваше повідомлення">{{ article.text }}</textarea>
+        <input type="submit" class="btn btn-success" value="Оновити">
+    </form>
+</div>
+{% endblock %}

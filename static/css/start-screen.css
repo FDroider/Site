@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Raleway;
+
+}
+
+body{
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url('https://ua.iwillminipc.com/Content/uploads/2022809963/202204211434193eb351246d7c476e823be91ac2901d78.png');
+    background-size: cover;
+}
+
+.hello{
+    padding-top: 160px;
+}
+
+.hello h1{
+    padding-top: 50px;
+    font-size: 80px;
+}
+
+.hello p{
+    font-size: 30px;
+}
+
+.hello a{
+    margin-top: 20px;
+}

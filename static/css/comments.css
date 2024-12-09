@@ -1,0 +1,46 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    box-sizing: border-box;
+}
+
+.element{
+    padding-top: 100px;
+}
+
+.element h1{
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.element input{
+    margin-bottom: 10px;
+}
+
+.element textarea{
+    margin-bottom: 10px;
+}
+
+.element a{
+    margin-bottom: 10px;
+}
+
+.change{
+    padding-top: 100px;
+}
+
+.change h1{
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.change input{
+    margin-bottom: 10px;
+}
+
+.change textarea{
+    margin-bottom: 10px;
+}
